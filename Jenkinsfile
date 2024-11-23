@@ -7,5 +7,11 @@ pipeline {
         sh 'pwd'
       }
     }
+
+    stage('Deploy') {
+      steps {
+        sh 'exit 1'
+      }
+    }
   }
 }
