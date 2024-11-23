@@ -13,5 +13,11 @@ pipeline {
         sh 'exit 1'
       }
     }
+
+    stage('hola') {
+      steps {
+        echo 'Hello World'
+      }
+    }
   }
 }
